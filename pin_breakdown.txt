@@ -1,0 +1,45 @@
+MCU - ATSAMD51J19
+(w/ Adafruit Metro M4 Bootloader & Variant)
+
+UART - SERCOM3:
+RX - pin 44, PA23, 0u
+TX - pin 43, PA22, 1u
+
+SPI - SERCOM2:
+MOSI - pin 29, PA12, 26u
+MISO - pin 31, PA14, 24u
+SCK - pin 30, PA13, 25u
+
+I2C - SERCOM5:
+SDA - 63, PB02, 20u
+SCL - 64, PB03, 21u
+
+Neopixel - SERCOM1:
+Output - 38, PA19, 11u
+
+
+NAV - ATSAMD21G18
+(w/ Adafruit Metro M0 Bootloader & Variant)
+
+UART - SERCOM0
+RX - 16, PA11, 0u
+TX - 15, PA10, 1u
+
+I2C - SERCOM3:
+SDA - 31, PA22, 26u
+SCL - 32, PA23, 27u
+
+I2C_MCU - SERCOM1:
+SDA - 25, PA16, 11u
+SCL - 26, PA17, 13u
+
+Neopixel - SERCOM2:
+Output - 24, PA15, 5u
+
+
+
+
+
+
+
+
