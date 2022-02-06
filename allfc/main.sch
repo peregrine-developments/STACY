@@ -374,8 +374,6 @@ Text HLabel 5300 4250 2    50   Output ~ 0
 ~SD_CS
 Wire Wire Line
 	7800 2400 7600 2400
-Text Label 8150 2900 2    50   ~ 0
-SERVO2
 Text Label 8150 3300 2    50   ~ 0
 SERVO3
 Text Label 8150 3400 2    50   ~ 0
@@ -518,8 +516,6 @@ Wire Wire Line
 	7600 2900 8150 2900
 Text Notes 7800 2900 2    50   ~ 0
 A4
-Text Notes 7800 3000 2    50   ~ 0
-A5
 Text Notes 7800 3300 2    50   ~ 0
 D7
 Text Notes 7800 3400 2    50   ~ 0
@@ -608,4 +604,8 @@ Wire Bus Line
 	5500 3150 5500 3450
 Wire Bus Line
 	8250 3000 8250 4000
+Text Label 8150 2900 2    50   ~ 0
+SERVO2
+Text Notes 7800 3000 2    50   ~ 0
+A5
 $EndSCHEMATC
